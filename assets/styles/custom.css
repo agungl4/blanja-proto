@@ -96,14 +96,14 @@ main {
 
 
 /* === Trending === */
-.featured-img {
+.trends-img {
   width: 455px;
   height: 175px;
   background-size: cover;
   background-repeat: no-repeat;
 }
 
-.featured-img h1 {
+.trends-img h1 {
   color: #fff;
   text-align: center;
   padding-top: 55px;
@@ -129,6 +129,8 @@ main {
   color: #fff;
   position: absolute;
   left: 3.5rem;
+  font-size: 35px;
+  font-weight: 500;
 }
 
 
@@ -160,9 +162,6 @@ main {
   overflow: auto;
 }
 
-.thumbnail img {
-  width: 100%;
-}
 
 /* ---MEDIA QUERY--- */
 @media (max-width: 516px) {
