@@ -1,0 +1,194 @@
+/* ================================================== */
+/* BASIC SETUP */
+/* ================================================== */
+html, body {
+  overflow-x: hidden;
+}
+
+section {
+  background-color: #E5E5E5;
+}
+
+main {
+  padding: 50px 0px 50px 0px;
+}
+
+#feature-section {
+  padding: 50px 0px 50px 0px;
+}
+
+#category-section {
+  padding: 50px 0px 50px 0px;
+}
+
+#new-items-section .col {
+  padding-right: 0px;
+  padding-left: 0px;
+}
+
+#popular-items-section .col {
+  padding-right: 0px;
+  padding-left: 0px;
+}
+
+
+/* === Navbar === */
+.navbar-light .navbar-brand {
+	color: #db3022;
+	font-weight: 700;
+}
+
+.col {
+  padding-right: 0px;
+}
+
+.navbar {
+  box-shadow: 1px 1px 1px 1px #adadad3f;
+}
+
+.input-group {
+  width: 500px;
+}
+
+.input-group-text {
+  border-radius: 200px;
+}
+
+.form-control {
+  border-radius: 200px;
+}
+
+.cart {
+  color: #9B9B9B;
+}
+
+
+/* === Buttons === */
+.btn {
+  font-size: 14px;
+  width: 100px;
+  border-radius: 200px;
+}
+
+.btn-full {
+	color: #fff;
+	background-color: #db3022;
+	border-color: #db3022;
+}
+
+.btn-full:hover {
+  background-color: #ad1b0d;
+  color: #fff;
+}
+
+.btn-outline {
+  border: 1px solid gray;
+  color: gray;
+}
+
+.btn-outline:hover {
+  border: 1px solid #db3022;
+	background-color: #db3022;
+	color: #fff;
+}
+
+.btn-filter {
+  width: 40px;
+  border-radius: 12px;
+}
+
+
+/* ================================================== */
+/* FEATURE SECTION */
+/* ================================================== */
+.featured-img {
+  width: 455px;
+  height: 175px;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+.featured-img h1 {
+  color: #fff;
+  text-align: center;
+  padding-top: 55px;
+}
+
+
+/* ================================================== */
+/* CATEGORY SECTION */
+/* ================================================== */
+.box {
+  position: relative;
+  width: 206px;
+  height: 220px;
+  margin: 10px;
+  border-radius: 10px;
+}
+
+.box .shoes-img {
+  margin-top: 55px;
+}
+
+.category-img {
+  margin-top: 30px;
+}
+
+.category-caption {
+  bottom: 5.6rem;
+  color: #fff;
+  position: absolute;
+  left: 3.5rem;
+}
+
+
+/* ---NEW ITEMS SECTION--- */
+.card {
+  width: 208px;
+  height: 278px;
+  margin: 10px;
+}
+
+.card-body h5 {
+  font-size: 16px;
+}
+
+.card-body p {
+  font-size: 12px;
+  margin-bottom: 0px;
+}
+
+.price-txt {
+  color: #DB3022;
+  margin-bottom: 0px;
+}
+
+
+.content {
+  background-color: #ddd;
+  min-height: 500px;
+  overflow: auto;
+}
+
+.thumbnail {
+  background-color: white;
+  text-align: left;
+  height: 278px;
+  width: 208px;
+  margin: 10px;
+  float: left;
+}
+
+.thumbnail img {
+  width: 100%;
+}
+
+/* ---MEDIA QUERY--- */
+@media (max-width: 516px) {
+  .input-group {
+  width: 100%;
+  }
+  .cart {
+  margin-left: 0px;
+  }
+}
