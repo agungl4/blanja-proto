@@ -1,9 +1,10 @@
-html, body {
+html,
+body {
   overflow-x: hidden;
 }
 
 main {
-  background-color: #f1f1f1;
+  background-color: #fff;
 }
 
 article {
@@ -12,8 +13,8 @@ article {
 
 /* === Navbar === */
 .navbar-light .navbar-brand {
-	color: #db3022;
-	font-weight: 700;
+  color: #db3022;
+  font-weight: 700;
 }
 
 .col {
@@ -50,9 +51,9 @@ article {
 }
 
 .btn-full {
-	color: #fff;
-	background-color: #db3022;
-	border-color: #db3022;
+  color: #fff;
+  background-color: #db3022;
+  border-color: #db3022;
 }
 
 .btn-full:hover {
@@ -67,8 +68,8 @@ article {
 
 .btn-outline:hover {
   border: 1px solid #db3022;
-	background-color: #db3022;
-	color: #fff;
+  background-color: #db3022;
+  color: #fff;
 }
 
 .btn-filter {
@@ -79,13 +80,13 @@ article {
 
 /* === Trending === */
 .img-carousel {
-	width: 455px;
+  width: 455px;
   height: 175px;
-	background-size: cover;
+  background-size: cover;
 }
 
 .img-carousel h1 {
-	color: #fff;
+  color: #fff;
   text-align: center;
   padding-top: 55px;
 }
@@ -99,6 +100,7 @@ article {
   margin: 10px;
   border-radius: 10px;
   text-align: center;
+  box-shadow: 1px 1px 10px;
 }
 
 .category-img {
@@ -121,6 +123,7 @@ article {
   height: 278px;
   margin: 10px;
   float: left;
+  box-shadow: 1px 1px 10px;
 }
 
 .card-body h5 {
@@ -147,11 +150,13 @@ article {
 /* ---MEDIA QUERY--- */
 @media (max-width: 768px) {
   .input-group {
-  width: 100%;
+    width: 100%;
   }
+
   .cart {
-  margin-left: 0px;
+    margin-left: 0px;
   }
+
   .btn-login,
   .btn-signup {
     display: block;
@@ -160,9 +165,25 @@ article {
   }
 }
 
+@media (max-width: 576px) {
+  .category-text {
+    font-size: 20px;
+    left: 3rem;
+    bottom: 8rem;
+  }
+}
+
 @media (max-width: 470px) {
   .card {
-    width: 100%;
+    width: 50%;
     height: 100%;
+  }
+  .box {
+    width: 50%;
+    height: 200px;
+  }
+  .category-text {
+    left: 1.5rem;
+    bottom: 8rem;
   }
 }
